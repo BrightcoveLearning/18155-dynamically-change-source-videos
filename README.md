@@ -1,7 +1,7 @@
 <!-- BE SURE TO UPDATE NAME AND LINK TO DOC -->
 
-# 18431-play-video-end-playlist
-For more information about this sample see: https://support.brightcove.com/brightcove-player-sample-play-video-end-playlist.
+# 18155-dynamically-change-source-videos
+For more information about this sample see: https://support.brightcove.com/brightcove-player-sample-dynamically-change-source-videos.
 
 <p>The purpose and structure of files in this repo are:</p>
 
