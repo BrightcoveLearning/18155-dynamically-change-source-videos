@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <video id="myPlayerID"
+  <video-js id="myPlayerID"
       data-video-id="3851380732001"
       data-account="1752604059001"
       data-player="HkZ9oXaHtZ"
@@ -23,8 +23,8 @@
       class="video-js"
       controls
       width="300"
-      height="150"></video>
-  <script src="//players.brightcove.net/1752604059001/HkZ9oXaHtZ_default/index.min.js"></script>
+      height="150"></video-js>
+  <script src="https://players.brightcove.net/1752604059001/HkZ9oXaHtZ_default/index.min.js"></script>
 
   <br />
   <button onclick="changeVideo()">Change Video</button>
@@ -32,7 +32,7 @@
   <script type="text/JavaScript">
     var myPlayer;
 
-    videojs("myPlayerID").ready(function() {
+    videojs.getPlayer('myPlayerID').ready(function() {
       myPlayer = this;
       myPlayer.play();
     });
